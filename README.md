@@ -26,6 +26,7 @@ taf.settings({
 
 - english use
 
+```js
 data(){
 
 return {
@@ -34,7 +35,7 @@ number : taf.parse(32,"en")
 
 }
 
-}
+}```
 
 
 - ar use
@@ -42,6 +43,7 @@ number : taf.parse(32,"en")
 
 - english use
 
+```js
 data(){
 
 return {
