@@ -1,23 +1,23 @@
 # NumberToText
-Convert Number To String Support English And Arabic
+Convert Number To String Support Both **English** And **Arabic**
 
-# VueJs Setup
+# library Setup
 
-1- Add the file to the static folder 
+` Add the file to the static folder `
 
 # VueJS Code
 
-2 - import the library 
+2 - Import the library 
 
 ```js
 import Tafqeet from "@/static/tafqeet.js";
 ```
-3 - create new instance 
+3 - Create new instance.
 
 ```js
 const taf = new Tafqeet();
 ```
-4 - prepare the decimle settings 
+4 - Prepare the decimle settings.
 
 ```js
 taf.settings({
@@ -25,9 +25,9 @@ taf.settings({
 });
 ```
 
-# Finaly use the library with
+# Finaly Use The Library Insida **Data**
 
-- english use
+- **English** use
 
 ```js
 data(){
@@ -42,7 +42,7 @@ number : taf.parse(32,"en")
 ```
 
 
-- ar use
+- **Arabic** use
 
 ```js
 data(){
