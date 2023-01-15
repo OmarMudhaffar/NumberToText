@@ -9,18 +9,21 @@ Convert Number To String Support English And Arabic
 
 2 - import the library 
 
+```js
 import Tafqeet from "@/static/tafqeet.js";
-
+```
 3 - create new instance 
 
+```js
 const taf = new Tafqeet();
-
+```
 4 - prepare the decimle settings 
 
+```js
 taf.settings({
   decimals: 2
 });
-
+```
 
 # Finaly use the library with
 
@@ -35,13 +38,11 @@ number : taf.parse(32,"en")
 
 }
 
-}```
+}
+```
 
 
 - ar use
-
-
-- english use
 
 ```js
 data(){
@@ -53,3 +54,4 @@ number : taf.parse(32,"ar")
 }
 
 }
+```
