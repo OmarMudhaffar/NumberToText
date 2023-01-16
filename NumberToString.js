@@ -166,13 +166,13 @@ var ones = {
   var _lang;
   var and;
   
-  function Tafgeet() {
+  function NumberToText() {
     "use strict";
  
   
   }
   
-  Tafgeet.prototype.settings = function(data) {
+  NumberToText.prototype.settings = function(data) {
     "use strict";
     this.singular = data.currency ? data.currency : "";
     this.decimals = data.decimals ? data.decimals : 2;
@@ -180,7 +180,7 @@ var ones = {
     suffix = data.suffix ? " " + data.suffix : "";
   };
   
-  Tafgeet.prototype.parse = function(number, lang) {
+  NumberToText.prototype.parse = function(number, lang) {
     _digit = number;
     this.digit = number;
     _lang = lang;
@@ -373,4 +373,4 @@ var ones = {
     return column;
   };
   
-  module.exports = Tafgeet;
+  module.exports = NumberToText;
