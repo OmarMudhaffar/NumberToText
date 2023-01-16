@@ -10,12 +10,12 @@ Convert Number To String Support Both **English** And **Arabic**
 2 - Import the library 
 
 ```js
-import Tafqeet from "@/static/tafqeet.js";
+import NumberToString from "@/static/NumberToString.js";
 ```
 3 - Create new instance.
 
 ```js
-const taf = new Tafqeet();
+const numberToText = new NumberToString();
 ```
 4 - Prepare the decimle settings.
 
@@ -34,7 +34,7 @@ data(){
 
 return {
 
-number : taf.parse(32,"en")
+number : numberToText.parse(32,"en")
 
 }
 
@@ -49,7 +49,7 @@ data(){
 
 return {
 
-number : taf.parse(32,"ar")
+number : numberToText.parse(32,"ar")
 
 }
 
