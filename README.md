@@ -20,7 +20,7 @@ const numberToText = new NumberToString();
 4 - Prepare the decimle settings.
 
 ```js
-taf.settings({
+numberToText.settings({
   decimals: 2
 });
 ```
